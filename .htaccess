@@ -1,0 +1,7 @@
+ErrorDocument 404 /404.php
+
+RewriteEngine On
+RewriteRule ^galerie/accueil/$ galerie/index.php [L]
+RewriteRule ^galerie/tableaux/$ galerie/tableaux.php [L]
+RewriteRule ^galerie/tableaux/ajouter_un_tableau/$ galerie/add_tableaux.php [L]
+RewriteRule ^galerie/commentaires/$ galerie/commentaires.php [L]
